@@ -1,0 +1,32 @@
+{
+	"sap.app": {
+		"id": "sap.m.sample.SearchField",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.m.sample.SearchField.Page",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"libs": {
+				"sap.ui.core": {},
+				"sap.m": {}
+			}
+		},
+		"config": {
+			"sample": {
+				"stretch": true,
+				"files": [
+					"Home.view.xml",
+					"Home.controller.js",
+					"model/GenericDataNoHeader.json",
+					"manifest.json"
+				]
+			}
+		}
+	}
+}
